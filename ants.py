@@ -94,7 +94,7 @@ class Ant(pygame.sprite.Sprite):
 		self.prev_interaction = INTERACTION_DELAY
 
 		#ants get boobs
-		self.boobs = True
+		self.boobs = True #hell yeah
 
 	##
 	## @brief      Called once per tick to perform an action and update the
