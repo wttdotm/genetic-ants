@@ -93,6 +93,9 @@ class Ant(pygame.sprite.Sprite):
 		#ant's can't mate til they're a bit older
 		self.prev_interaction = INTERACTION_DELAY
 
+		#ants get boobs
+		self.boobs = True
+
 	##
 	## @brief      Called once per tick to perform an action and update the
 	##             ant's location on screen
